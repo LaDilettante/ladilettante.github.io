@@ -20,4 +20,4 @@ collections:
   statbook:
     output: true
 
-# render: statbook
+render: statbook
