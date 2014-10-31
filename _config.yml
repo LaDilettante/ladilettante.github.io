@@ -6,7 +6,8 @@ baseurl: ""
 url: "http://ladilettante.github.io"
 twitter_username: anh_q_le
 github_username:  LaDilettante
-# facebook_username:  IronSummitMedia
+linkedin_username: anhqle
+# facebook_username:  my FB username
 
 # Build settings
 markdown: kramdown
