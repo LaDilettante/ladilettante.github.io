@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Statbook index"
-description: "This is what I do."
+title: "Statistics Book"
+description: "My notes when 'Exercise is left to the reader'"
 header-img: "img/about-bg.jpg"
 ---
 
