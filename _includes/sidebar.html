@@ -9,6 +9,9 @@
         <li>
             <a href="{{ site.baseurl }}/">Blog</a>
         </li>
+        <li>
+            <a href="/statbook">My Stat Book</a>
+        </li>
         {% for page in site.pages %}
         <li>
             {% if page.title %}<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
