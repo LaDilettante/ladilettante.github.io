@@ -4,6 +4,7 @@ jQuery(document).ready(function($) {
 
     //primary navigation slide-in effect
     if ($(window).width() > MQL) {
+        var headerHeight = $('.intro-header').height()
         $(window).on('scroll', {
                 previousTop: 0
             },
@@ -12,10 +13,12 @@ jQuery(document).ready(function($) {
                 //check if user is scrolling up
                 if (currentTop < this.previousTop) {
                     //if scrolling up...
-                    $("#wrapper").toggleClass("toggled");
+                    $("#wrapper").removeClass("hide-sidebar");
                 } else {
                     //if scrolling down...
-                    $("#wrapper").toggleClass("toggled");
+                    if (currentTop > headerHeight) {
+                        $("#wrapper").addClass("hide-sidebar");
+                    }
                 }
                 this.previousTop = currentTop;
             });
