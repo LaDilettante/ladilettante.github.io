@@ -1,6 +1,9 @@
 ---
-layout: default
-title: Reading Imbens & Wooldridge (2009)
+layout: mathpost
+title: "Reading Imbens and Wooldrige 2009"
+author: "Anh Le"
+description: "This is my reading of it"
+header-img: "img/about-bg.jpg"
 ---
 
 Reference: Imbens & Wooldrige (2009). Recent developments in the econometrics of program evaluation.[Open-access link](http://dash.harvard.edu/bitstream/handle/1/3043416/imbens_recent.pdf?sequence=2)
