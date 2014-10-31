@@ -1,0 +1,19 @@
+ <!-- Sidebar -->
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <a href="#">
+                Anh Le
+            </a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/">Blog</a>
+        </li>
+        {% for page in site.pages %}
+        <li>
+            {% if page.title %}<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<!-- /#sidebar-wrapper -->
