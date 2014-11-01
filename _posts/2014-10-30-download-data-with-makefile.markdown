@@ -5,6 +5,7 @@ subtitle:   "to improve reproducible research."
 date:       2014-10-30 12:00:00
 author:     "Anh Le"
 header-img: "img/post-bg-01.jpg"
+comments: true
 ---
 
 Since I have my R scripts carefully labeled in sequence, anyone can download my script and reproduce my research from raw data to the final document. The only step that is not yet reproducible in my research pipeline is how to get the same raw input data. Recently I've come up with two solutions:
